@@ -40,4 +40,5 @@ public class InterviewApplicationTests {
         assertEquals("Product C", firstBrand.getValue().get(0).getName());
         assertEquals("Product B", firstBrand.getValue().get(1).getName());
     }
+
 }

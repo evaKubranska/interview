@@ -79,3 +79,22 @@ Feel free to come up with more ideas on how to improve the service from technica
 
 ## Submit Your Work
 Please create a zip file of your solution and send it back to [Vanessa](mailto:vmeyer@epages.com). We will look at it and further discuss your solution together.
+
+
+# REST API
+### Request : get a sorted list of products 
+
+`GET product/sort`
+
+        {
+            "Brand A": [
+                {
+                    "id": 1,
+                    "name": "Product A",
+                    "price": 7.99,
+                    "event": "ON SALE"
+                }
+            ]
+        }
+
+
