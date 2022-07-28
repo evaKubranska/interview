@@ -19,17 +19,14 @@ import static org.junit.Assert.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class InterviewApplicationTests {
-
     @Autowired
     ProductService productService;
-
     @Test
     public void contextLoads() {
         List<Product> productList = productService.fetchProductList();
         assertNotNull(productList);
         assertTrue(productList.size() > 0);
     }
-
     @Test
     public void sortingTest() {
         List<Product> products = new ArrayList<>();
