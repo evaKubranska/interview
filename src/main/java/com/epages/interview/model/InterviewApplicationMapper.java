@@ -9,6 +9,9 @@ import java.util.stream.Collectors;
 public class InterviewApplicationMapper {
 
     public static Map<String, List<ProductDto>> sortProductList (List<Product> products) {
+        if(products == null) {
+            return null;
+        }
         Map<String, List<ProductDto>>  productMap = products.stream()
                         .collect(Collectors.groupingBy(Product::getBrand,
                         Collectors.mapping(
