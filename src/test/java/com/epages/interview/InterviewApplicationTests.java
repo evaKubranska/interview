@@ -1,6 +1,6 @@
 package com.epages.interview;
 
-import com.epages.interview.model.mapper.InterviewApplicationMapper;
+import com.epages.interview.model.InterviewApplicationMapper;
 import com.epages.interview.model.Product;
 import com.epages.interview.model.ProductDto;
 import com.epages.interview.service.ProductService;
